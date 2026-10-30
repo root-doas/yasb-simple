@@ -1,0 +1,29 @@
+/* UPDATE CHECK WIDGET */
+.update-check-widget {
+  padding: var(--widget-spacing-small);
+}
+.update-check-widget .icon {
+  font-size: var(--font-size-icon);
+}
+.update-check-widget .widget-container.winget,
+.update-check-widget .widget-container.windows {
+  margin: 4px 2px 4px 2px;
+}
+.update-check-widget .widget-container.windows {
+  margin: 4px 2px 4px 2px;
+}
+.update-check-widget .widget-container.winget .icon,
+.update-check-widget .widget-container.windows .icon {
+  margin: 0 1px 0 4px;
+}
+.update-check-widget .widget-container.winget .icon {
+  color: var(--color-winget);
+}
+.update-check-widget .widget-container.windows .icon {
+  color: var(--color-windows);
+}
+.update-check-widget .widget-container.winget .label,
+.update-check-widget .widget-container.windows .label {
+  margin: 0 4px 0 1px;
+  font-size: var(--font-size-icon);
+}

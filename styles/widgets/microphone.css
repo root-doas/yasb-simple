@@ -1,0 +1,34 @@
+/* MICROPHONE WIDGET */
+.microphone-widget {
+  padding: var(--widget-spacing-small);
+}
+
+.microphone-widget .icon {
+  margin-right: 2px;
+}
+
+.microphone-menu .system-volume-container .volume-slider {
+  border: none;
+}
+
+.microphone-menu {
+  background-color: var(--color-background-main-transparent);
+  min-width: 300px;
+}
+
+.microphone-menu .microphone-container .device {
+  font-size: var(--font-size-text);
+  background-color: transparent;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin: 2px 0;
+  border: none;
+}
+
+.microphone-menu .microphone-container .device.selected {
+  background-color: var(--color-background-light-transparent-10);
+}
+
+.microphone-menu .microphone-container .device:hover {
+  background-color: var(--color-background-light-transparent-20);
+}

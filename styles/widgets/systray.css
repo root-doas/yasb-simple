@@ -1,0 +1,46 @@
+/* SYSTRAY WIDGET */
+.systray .unpinned-container {
+  background-color: var(--color-background-main-transparent);
+  border-radius: 16px;
+  margin-left: 5px;
+  padding: 0 4px;
+}
+.systray .pinned-container {
+  margin-left: 5px;
+}
+.systray .button {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 4px;
+  border: 0;
+}
+.systray .button:hover {
+  background-color: var(--color-background-main-transparent);
+}
+.systray .unpinned-visibility-btn {
+  background-color: transparent;
+  padding: 6px;
+  border: 0;
+}
+
+/* The icon the drag is hovering over (drop target icon) */
+.systray-popup .button.drag-over {
+  background-color: var(--color-background-light-transparent-20);
+}
+
+.systray .pinned-container.pinned-container.drop-target {
+  background-color: var(--color-background-light-transparent-10);
+}
+.systray-popup {
+  background-color: var(--color-background-main-transparent);
+  padding: 4px;
+}
+.systray-popup .button {
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  border-radius: 6px;
+}
+.systray-popup .button:hover {
+  background-color: var(--color-background-light-transparent-05);
+}

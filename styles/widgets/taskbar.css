@@ -1,0 +1,33 @@
+/* TASKBAR WIDGET */
+.taskbar-widget .app-container {
+  padding: var(--widget-spacing-small);
+  border-radius: 8px;
+  margin: 2px;
+}
+.taskbar-widget .app-container.running,
+.taskbar-widget .app-container.foreground {
+  background-color: var(--color-background-main-transparent);
+  padding: var(--widget-spacing);
+}
+.taskbar-widget .app-container.flashing {
+  background-color: var(--color-taskbar-flashing);
+}
+
+.taskbar-widget .app-container .app-title {
+  margin-bottom: 2px;
+  margin-left: 4px;
+}
+
+.taskbar-preview {
+  background-color: var(--color-background-main-transparent);
+  border-radius: 8px;
+}
+.taskbar-preview .header {
+  padding-bottom: 12px;
+  padding-top: 4px;
+}
+.taskbar-preview .header .title {
+  color: var(--color-text-hover);
+  font-size: var(--font-size-text);
+  font-weight: 600;
+}

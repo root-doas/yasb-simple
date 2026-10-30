@@ -1,0 +1,34 @@
+/* AUDIO WIDGET */
+.volume-widget {
+  padding: var(--widget-spacing-small);
+}
+
+.volume-widget .icon {
+  margin-right: 2px;
+}
+
+.volume-slider {
+  border: none;
+}
+
+.audio-menu {
+  background-color: var(--color-background-main-transparent);
+  min-width: 300px;
+}
+
+.audio-container .device {
+  font-size: var(--font-size-text);
+  background-color: transparent;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin: 2px 0;
+  border: none;
+}
+
+.audio-container .device.selected {
+  background-color: var(--color-background-light-transparent-10);
+}
+
+.audio-container .device:hover {
+  background-color: var(--color-background-light-transparent-20);
+}
